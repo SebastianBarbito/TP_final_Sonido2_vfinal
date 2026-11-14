@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7E5D2E7E-DF09-4F60-B5A5-FCDEF9C220A7}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7E5D2E7E-DF09-4F60-B5A5-FCDEF9C220A7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main_Soundbanks" ID="{914D5851-77CB-4E9B-ACCC-AE423CD0EA05}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Linterna_Prender" ID="{E3B13FFC-9649-401A-B448-8B9150A4B434}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RC_Monologos" ID="{C817B565-69FC-4278-86C9-006B51C9A201}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footstep" ID="{0CB9435C-0D77-42BC-AC4D-EE4C429B6AA0}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Puerta_Cerrar" ID="{A4A0FE23-E1C2-4307-AFDD-D511176E9068}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_AscensorFalla" ID="{C8937C99-F7C7-434F-BCD5-1292EE560F09}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Linterna_Apagar" ID="{2D190CB9-17E2-4371-B57B-C07CADDB77C2}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Goteo_Tuberias" ID="{8C90D410-5EB3-43A8-ADDE-A0F7B340A34A}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lavamanos_Agua" ID="{6E7293D0-B79C-43DF-85DF-82834AA31028}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Lavamanos_Agua" ID="{9E313E2F-66A8-44C2-9508-20ABB6E5694D}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Congelador" ID="{05CDBB7D-07D5-44E7-A79D-C28EEED5C07D}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Led" ID="{2DC97775-5005-45CF-AF29-E5D6BF211013}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music" ID="{03E14BE9-806D-4728-B03C-F91F508E95F2}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ascensor" ID="{7F6B2672-9A06-473F-BC02-A2BDF64B3551}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ascensor_Falla" ID="{D3A8EA71-7FE2-4B38-821B-A76F1E6B223C}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voz_AscensorLlamar" ID="{7023C18F-AE91-4B51-9E46-BF1AE267F833}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Puerta_Abrir" ID="{45C18B63-D95F-4B53-BE92-60D0520882CF}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Morgue" ID="{E2331386-BDC4-4BBB-A3A5-12544AD053D8}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Tanque_Agua" ID="{0E0B4B52-4C90-4BE6-8C26-9983B72061A1}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Alerta_Ascensor" ID="{34CFDBE5-4F37-4E46-BB95-DCA81AA31557}" WorkUnitID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

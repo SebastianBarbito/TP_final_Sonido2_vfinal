@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E591D2B-1334-4E65-B42F-5EA4BFC3341E}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{3E591D2B-1334-4E65-B42F-5EA4BFC3341E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Type" ID="{09690C9F-F820-462B-BF71-B18BA6E233AB}">
+					<ChildrenList>
+						<Switch Name="Ceramica" ID="{1449DB5E-05BD-4D65-97D3-51ACD013AD1E}"/>
+						<Switch Name="Ladrillo" ID="{A149E5AF-1473-45EE-BED2-EA89856D5194}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

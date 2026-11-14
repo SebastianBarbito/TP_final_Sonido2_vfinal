@@ -1,0 +1,74 @@
+Event	ID	Name			Wwise Object Path	Notes
+	221182915	Play_Tanque_Agua			\Default Work Unit\Play_Tanque_Agua	
+	235755498	Play_Alerta_Ascensor			\Default Work Unit\Play_Alerta_Ascensor	
+	562350871	Play_Voz_AscensorLlamar			\Default Work Unit\Play_Voz_AscensorLlamar	
+	1581461195	Play_Lavamanos_Agua			\Default Work Unit\Play_Lavamanos_Agua	
+	1602358412	Play_Footstep			\Default Work Unit\Play_Footstep	
+	1640487806	Play_Puerta_Abrir			\Default Work Unit\Play_Puerta_Abrir	
+	2034337500	Play_Voz_AscensorFalla			\Default Work Unit\Play_Voz_AscensorFalla	
+	2306544893	Play_RC_Monologos			\Default Work Unit\Play_RC_Monologos	
+	2336636307	Play_Puerta_Cerrar			\Default Work Unit\Play_Puerta_Cerrar	
+	2339958533	Play_Ascensor_Falla			\Default Work Unit\Play_Ascensor_Falla	
+	2624422069	Play_Led			\Default Work Unit\Play_Led	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3005329870	Play_Congelador			\Default Work Unit\Play_Congelador	
+	3035040058	Play_Goteo_Tuberias			\Default Work Unit\Play_Goteo_Tuberias	
+	3229718764	Play_Ascensor			\Default Work Unit\Play_Ascensor	
+	3377514224	Play_Linterna_Apagar			\Default Work Unit\Play_Linterna_Apagar	
+	3438594673	Stop_Lavamanos_Agua			\Default Work Unit\Stop_Lavamanos_Agua	
+	3438997181	Play_Morgue			\Default Work Unit\Play_Morgue	
+	3903689922	Play_Linterna_Prender			\Default Work Unit\Play_Linterna_Prender	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4064446173	Surface_Type			\Default Work Unit\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	890558384	Ceramica	Surface_Type			
+	2010309870	Ladrillo	Surface_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3955990872	Zona_Musica			\Default Work Unit\Zona_Musica	
+
+State	ID	Name	State Group			Notes
+	261264058	Sala_Maquinas	Zona_Musica			
+	748895195	None	Zona_Musica			
+	1818940147	Pasillo	Zona_Musica			
+	3538185048	Pasillo_Suspenso	Zona_Musica			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3376069164	Distance_Morgue			\Default Work Unit\Distance_Morgue	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	46665613	Dialogo_Hospital_05	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Dialogo_Hospital_01_7C65B81A.wem		\Actor-Mixer Hierarchy\Default Work Unit\RC_Monologos\Dialogo_Hospital_05		954152
+	58950823	SFX_Advertencia_Pasillo_04	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Advertencia_Pasillo_04_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musica_General\Playlis_Pasillo_Suspenso\Pasillo_Suspenso\SFX_Advertencia_Pasillo_04		3792696
+	94962318	Voz_Ascensor_Llamar	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Dialogo_Hospital_01_30641D6E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voz_Ascensor_Llamar		872376
+	147970337	SFX_Pasos_Ladrillo_08	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Pasos_Ladrillo_08_46DCF651.wem		\Actor-Mixer Hierarchy\Default Work Unit\SC_Footsteps\RC_Pasos_Ladrillo\SFX_Pasos_Ladrillo_08		149868
+	210125542	Voz_Ascensor_Falla	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Dialogo_Hospital_01_158905A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voz_Ascensor_Falla		790600
+	237002551	SFX_Pasos_Ladrillo_081	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Pasos_Ladrillo_08_EF89BABB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SC_Footsteps\RC_Pasos_Ladrillo\SFX_Pasos_Ladrillo_081		121608
+	334558867	piano	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\piano_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Morgue\Morgue\piano		12288096
+	338583473	SFX_Lavamanos_Agua	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Desague_Loop_02_02F6CA4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Lavamanos_Agua		1018644
+	350536128	Dialogo_Hospital_01	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Dialogo_Hospital_01_3C2AB96E.wem		\Actor-Mixer Hierarchy\Default Work Unit\RC_Monologos\Dialogo_Hospital_01		736080
+	352490057	Pasillo	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Pasillo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musica_General\Playlist_Pasillo\Pasillo\Pasillo		4852320
+	399691279	SFX_Pasos_Ceramica_071	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Pasos_Ceramica_07_68AE3599.wem		\Actor-Mixer Hierarchy\Default Work Unit\SC_Footsteps\RC_Pasos_Ceramica\SFX_Pasos_Ceramica_071		137812
+	457593725	SFX_Linterna_Prender	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Prender_Linterna_6B5B6616.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Linterna_Prender		159276
+	466090118	SFX_Puerta_Abrir	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Puerta_Interaccion_01_71DCECD2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Puerta_Abrir		166080
+	470158278	SFX_Ascensor	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Primer ruido de elevador_7CDD301C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ascensor		1437828
+	480890568	Dialogo_Hospital_02	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Dialogo_Hospital_01_07BFF7AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\RC_Monologos\Dialogo_Hospital_02		436232
+	499699512	SFX_Foco_LED	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Foco_Zumbido_05_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Foco_LED		1682476
+	505960465	SFX_Alerta_Ascensor	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Alerta_MGS_09_6A134ECB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Alerta_Ascensor		136368
+	509184880	SFX_Tanque_Agua	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_ContenedorAgua_Golpe_03_F67716BF.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Tanque_Agua		3263496
+	530534441	bajo	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\bajo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Morgue\Morgue\bajo		12288096
+	533419512	Dialogo_Hospital_04	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Dialogo_Hospital_01_29066320.wem		\Actor-Mixer Hierarchy\Default Work Unit\RC_Monologos\Dialogo_Hospital_04		926896
+	549910586	SFX_Linterna_Apagar	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Apagar_Linterna_C77B6409.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Linterna_Apagar		97644
+	559636948	Dialogo_Hospital_03	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Dialogo_Hospital_01_9D0C30C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\RC_Monologos\Dialogo_Hospital_03		1090448
+	597165554	SFX_Ascensor_Falla	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Ascensor_Cortocircuito_06_C95BF575.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ascensor_Falla		601220
+	636574113	SFX_Pasos_Ceramica_072	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Pasos_Ceramica_07_7F932649.wem		\Actor-Mixer Hierarchy\Default Work Unit\SC_Footsteps\RC_Pasos_Ceramica\SFX_Pasos_Ceramica_072		137812
+	722618818	violin	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\violin_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Morgue\Morgue\violin		12288096
+	779577973	SFX_Camara_Frigorifica	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Ventilacion_Habitacion1_13_40674352.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Camara_Frigorifica		2702072
+	834933828	SFX_Pasos_Ladrillo_082	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Pasos_Ladrillo_08_FDF1E2BB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SC_Footsteps\RC_Pasos_Ladrillo\SFX_Pasos_Ladrillo_082		129708
+	836405072	SFX_Puerta_Cerrar	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Puerta_Interaccion_01_02FDC824.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Puerta_Cerrar		201212
+	916453779	SFX_Goteo_Tuberias	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Goteo_tuberias_14_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Goteo_Tuberias		3072096
+	1009491620	Sala_Maquinas	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\Sala_Maquinas_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musica_General\Playlist_SalaMaquinas\Sala_Maquinas\Sala_Maquinas		15570528
+	1060494435	bateria	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\bateria_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Morgue\Morgue\bateria		12288096
+	1062887725	SFX_Pasos_Ceramica_07	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Mac\SFX\SFX_Pasos_Ceramica_07_35B8602A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SC_Footsteps\RC_Pasos_Ceramica\SFX_Pasos_Ceramica_07		141056
+

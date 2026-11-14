@@ -1,0 +1,16 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3955990872	Zona_Musica			\Default Work Unit\Zona_Musica	
+
+State	ID	Name	State Group			Notes
+	261264058	Sala_Maquinas	Zona_Musica			
+	748895195	None	Zona_Musica			
+	1818940147	Pasillo	Zona_Musica			
+	3538185048	Pasillo_Suspenso	Zona_Musica			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

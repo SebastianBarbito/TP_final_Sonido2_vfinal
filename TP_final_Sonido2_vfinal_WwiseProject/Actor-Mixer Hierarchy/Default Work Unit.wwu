@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B2C030CA-E036-4207-9736-1C332EA27905}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B2C030CA-E036-4207-9736-1C332EA27905}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX_Puerta_Abrir" ID="{B5358EFA-F89E-43DC-B21F-CCE047AE83EF}" ShortID="999568737">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Max_Distance_puerta" ID="{EBC8FAE0-1204-4362-B1E0-581295FABA4C}" WorkUnitID="{391D9F34-9956-4CB7-B3B3-75A6CA92D01D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Puerta_Interaccion_01" ID="{2652B741-40D6-4927-9AF7-19043470181F}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.398351648351648"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.178571428571429"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.511217948717949"/>
+								<Property Name="LoopEnd" Type="Real64" Value="1.35416666666667"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.453296703296703"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.39423076923077"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Puerta_Interaccion_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="466090118"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{760E41B5-CC2F-445F-9E06-A57EC173F157}"/>
+						<Position Name="" ID="{15D65FDC-8E98-4606-81AC-4EF1E31E86CC}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Puerta_Interaccion_01" ID="{2652B741-40D6-4927-9AF7-19043470181F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Puerta_Cerrar" ID="{02C69593-E198-455B-A1B7-7118D957A424}" ShortID="946047953">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Max_Distance_puerta" ID="{EBC8FAE0-1204-4362-B1E0-581295FABA4C}" WorkUnitID="{391D9F34-9956-4CB7-B3B3-75A6CA92D01D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Puerta_Interaccion_01" ID="{13CC2BEE-1BD0-4FFF-B451-AFFA6817AD16}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.36401098901099"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.445283882783883"/>
+								<Property Name="LoopBegin" Type="Real64" Value="1.27403846153846"/>
+								<Property Name="LoopEnd" Type="Real64" Value="2.17147435897436"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.2293956043956"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.36950549450549"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Puerta_Interaccion_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="836405072"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Puerta_Interaccion_01" ID="{13CC2BEE-1BD0-4FFF-B451-AFFA6817AD16}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Foco_LED" ID="{EF2D250D-C421-410C-9E97-CA4E8596237B}" ShortID="31488106">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Focos_LED" ID="{A65C1790-76F9-4953-94BE-B319B7E96A2E}" WorkUnitID="{391D9F34-9956-4CB7-B3B3-75A6CA92D01D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Foco_Zumbido_05" ID="{7B137971-D235-4737-A225-75548A6F8FB2}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Foco_Zumbido_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="499699512"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Foco_Zumbido_05" ID="{7B137971-D235-4737-A225-75548A6F8FB2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Lavamanos_Agua" ID="{00163589-6107-4A3D-9B4F-95730DE4687A}" ShortID="517509332">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="27"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Att_Focos_LED" ID="{A65C1790-76F9-4953-94BE-B319B7E96A2E}" WorkUnitID="{391D9F34-9956-4CB7-B3B3-75A6CA92D01D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Desague_Loop_02" ID="{D7E5AFAA-81FE-4FFC-9310-E6940650C045}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.928992628392016"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.836093365552815"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Desague_Loop_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="338583473"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Desague_Loop_02" ID="{D7E5AFAA-81FE-4FFC-9310-E6940650C045}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Tanque_Agua" ID="{A383CDC8-C45F-4EE9-9B70-77DEC85AA03C}" ShortID="378301668">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Tanque_Agua" ID="{DD4B5D92-90D7-4FFA-824B-61A20110282E}" WorkUnitID="{391D9F34-9956-4CB7-B3B3-75A6CA92D01D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_ContenedorAgua_Golpe_03" ID="{190C3A62-5B77-460B-8D12-5119900C2255}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="2.23235027472527"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.43529120879121"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_ContenedorAgua_Golpe_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="509184880"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_ContenedorAgua_Golpe_03" ID="{190C3A62-5B77-460B-8D12-5119900C2255}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Ascensor" ID="{29F75709-E8D3-4AD8-8BE9-9AD4EA90ABB5}" ShortID="490540873">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Tanque_Agua" ID="{DD4B5D92-90D7-4FFA-824B-61A20110282E}" WorkUnitID="{391D9F34-9956-4CB7-B3B3-75A6CA92D01D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Primer ruido de elevador" ID="{43F45209-8F73-429B-89A9-F398FBBE5BAF}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.50190661478599"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.699163424124514"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.48819066147859"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Primer ruido de elevador.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="470158278"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Primer ruido de elevador" ID="{43F45209-8F73-429B-89A9-F398FBBE5BAF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Ascensor_Falla" ID="{87CC4906-4D99-404B-93E0-5CE35C877FF2}" ShortID="929042269">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Tanque_Agua" ID="{DD4B5D92-90D7-4FFA-824B-61A20110282E}" WorkUnitID="{391D9F34-9956-4CB7-B3B3-75A6CA92D01D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="electric-explosion" ID="{E3761B75-04FD-4A9C-9371-8485BDA8F32E}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.499300316754458"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.499300316754458"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.374475237565844"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.63240980438868"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>electric-explosion.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="553301330"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="SFX_Ascensor_Cortocircuito_06" ID="{E1D94CC8-5860-41BB-B640-033E836F03C1}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.199720126701783"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.486817808835597"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.474335300916735"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.88205996276591"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Ascensor_Cortocircuito_06.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="597165554"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Ascensor_Cortocircuito_06" ID="{E1D94CC8-5860-41BB-B640-033E836F03C1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Linterna_Prender" ID="{4DD423DA-9351-43DE-9FF8-5BEBA89D1E50}" ShortID="844284844">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Prender_Linterna" ID="{0724D643-93AA-4A68-9F13-DEE08CEE397C}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.103097276264591"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.932171206225681"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Prender_Linterna.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="457593725"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Prender_Linterna" ID="{0724D643-93AA-4A68-9F13-DEE08CEE397C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Linterna_Apagar" ID="{5C9CFBDD-D0ED-40DB-B638-E3E61919CBA5}" ShortID="241515904">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Apagar_Linterna" ID="{F0DA25CE-4E5B-4645-8C32-50AEA780D0EE}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.508062256809338"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Apagar_Linterna.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="549910586"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Apagar_Linterna" ID="{F0DA25CE-4E5B-4645-8C32-50AEA780D0EE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Alerta_Ascensor" ID="{3B52A820-3692-40AF-BDD4-AA02271092FA}" ShortID="134993939">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Alerta_MGS_09" ID="{98479CD3-12CD-4ABD-8860-5950CA226A5D}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.103630720770799"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.135033969489222"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.772519918473226"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Alerta_MGS_09.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="505960465"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Alerta_MGS_09" ID="{98479CD3-12CD-4ABD-8860-5950CA226A5D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<SwitchContainer Name="SC_Footsteps" ID="{F3C1D253-E249-4BC0-96FD-88449557EAA9}" ShortID="118249765">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Surface_Type" ID="{09690C9F-F820-462B-BF71-B18BA6E233AB}" WorkUnitID="{3E591D2B-1334-4E65-B42F-5EA4BFC3341E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_Pasos_Ceramica" ID="{BBBF61F4-8CDE-4FF8-93E5-2F9FC8D4F74F}" ShortID="1022856591">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Pasos_Ceramica_07" ID="{89C8F1A3-9ABB-4BB8-9A8C-DEBFE46EC696}" ShortID="892099611">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Pasos_Ceramica_07" ID="{C400085A-40C1-4AAB-BDFA-3A411A246862}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.149832049551338"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.799104264273802"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Pasos_Ceramica_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1062887725"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Pasos_Ceramica_07" ID="{C400085A-40C1-4AAB-BDFA-3A411A246862}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Pasos_Ceramica_071" ID="{F90CA64D-A5D5-49E8-99A7-591C35842C0F}" ShortID="823132244">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Pasos_Ceramica_07" ID="{AF324E97-ECA4-44CD-860C-9ABBDBB210D5}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.780699134752291"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.56139826950459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Pasos_Ceramica_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="399691279"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Pasos_Ceramica_07" ID="{AF324E97-ECA4-44CD-860C-9ABBDBB210D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Pasos_Ceramica_072" ID="{5CC39B21-B659-48A8-A493-C6B7330C6111}" ShortID="244665127">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Pasos_Ceramica_07" ID="{D54F8EEF-1628-4573-9801-1207FA969075}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.51547479098974"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.29617392574204"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Pasos_Ceramica_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="636574113"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Pasos_Ceramica_07" ID="{D54F8EEF-1628-4573-9801-1207FA969075}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Pasos_Ladrillo" ID="{29EBE643-72B2-48B7-9F7A-708943822E1E}" ShortID="1032636884">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Pasos_Ladrillo_08" ID="{EAABF977-E2CC-4D42-B5CC-A78E242EAC18}" ShortID="371922720">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Pasos_Ladrillo_08" ID="{F216E4A5-6287-4DC7-9854-EB0E23E53FE9}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.849048280790916"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Pasos_Ladrillo_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="147970337"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Pasos_Ladrillo_08" ID="{F216E4A5-6287-4DC7-9854-EB0E23E53FE9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Pasos_Ladrillo_081" ID="{385A829D-B076-4DD2-AD70-8A0B2116CB21}" ShortID="925330576">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Pasos_Ladrillo_08" ID="{23132351-3232-4348-A960-7BA9D5BF19B0}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.826622613267131"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.51547479098975"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Pasos_Ladrillo_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="237002551"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Pasos_Ladrillo_08" ID="{23132351-3232-4348-A960-7BA9D5BF19B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Pasos_Ladrillo_082" ID="{BCA0A645-3D42-4D7D-ABA5-1099F276D8FB}" ShortID="384048634">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>50</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Pasos_Ladrillo_08" ID="{0516DBB5-B990-431F-8345-625BABD90337}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.60732174801942"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.34209740425688"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Pasos_Ladrillo_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="834933828"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Pasos_Ladrillo_08" ID="{0516DBB5-B990-431F-8345-625BABD90337}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="RC_Pasos_Ladrillo" ID="{29EBE643-72B2-48B7-9F7A-708943822E1E}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="RC_Pasos_Ceramica" ID="{BBBF61F4-8CDE-4FF8-93E5-2F9FC8D4F74F}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Ceramica" ID="{1449DB5E-05BD-4D65-97D3-51ACD013AD1E}"/>
+								<ItemList>
+									<ItemRef Name="RC_Pasos_Ceramica" ID="{BBBF61F4-8CDE-4FF8-93E5-2F9FC8D4F74F}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Ladrillo" ID="{A149E5AF-1473-45EE-BED2-EA89856D5194}"/>
+								<ItemList>
+									<ItemRef Name="RC_Pasos_Ladrillo" ID="{29EBE643-72B2-48B7-9F7A-708943822E1E}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Sound Name="Voz_Ascensor_Llamar" ID="{16E7F663-BB93-4CAC-91CF-16DEEE67F1EF}" ShortID="910400051">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dialogo_Hospital_01" ID="{CB415251-F21E-4FAF-9537-ED6ED9F3F6B0}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.927168291287899"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.6998085340278"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="51.766896263574"/>
+								<Property Name="TrimEnd" Type="Real64" Value="56.7117938171095"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Dialogo_Hospital_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="94962318"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dialogo_Hospital_01" ID="{CB415251-F21E-4FAF-9537-ED6ED9F3F6B0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Voz_Ascensor_Falla" ID="{39FA7A1D-FF9A-4897-B524-F703F69F416D}" ShortID="427708424">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dialogo_Hospital_01" ID="{DE53A387-FD31-4AE3-BC9B-B99AA1316701}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.08169633983587"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.772640242739911"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="61.3476352735489"/>
+								<Property Name="TrimEnd" Type="Real64" Value="65.8289486814404"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Dialogo_Hospital_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="210125542"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dialogo_Hospital_01" ID="{DE53A387-FD31-4AE3-BC9B-B99AA1316701}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="RC_Monologos" ID="{1CD18816-C5D9-4462-B9D4-97232D702158}" ShortID="687734010">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Dialogo_Hospital_01" ID="{A29AB7EC-B7D1-404A-966B-2043E15ECBC3}" ShortID="65013987">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dialogo_Hospital_01" ID="{889840D4-5326-4706-B7A7-18A2B14311B9}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.08169633983588"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.618112194191923"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="70.3102620893318"/>
+										<Property Name="TrimEnd" Type="Real64" Value="74.4825194001274"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Dialogo_Hospital_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="350536128"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dialogo_Hospital_01" ID="{889840D4-5326-4706-B7A7-18A2B14311B9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dialogo_Hospital_02" ID="{D3008241-B957-4B11-9471-103797A9E899}" ShortID="213379350">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dialogo_Hospital_01" ID="{E7CE763A-F9B2-41D3-A78B-31240DE3445C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="73.8644072059355"/>
+										<Property Name="TrimEnd" Type="Real64" Value="76.3368559827032"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Dialogo_Hospital_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="480890568"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dialogo_Hospital_01" ID="{E7CE763A-F9B2-41D3-A78B-31240DE3445C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dialogo_Hospital_03" ID="{A2C93ABC-2EED-493E-93BE-F95E6DEDF20C}" ShortID="1060974551">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dialogo_Hospital_01" ID="{AD06224D-0D84-4B0D-959B-D5CB930846FC}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.39075243693183"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.08169633983587"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="79.2728889051148"/>
+										<Property Name="TrimEnd" Type="Real64" Value="85.4540108470341"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Dialogo_Hospital_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="559636948"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dialogo_Hospital_01" ID="{AD06224D-0D84-4B0D-959B-D5CB930846FC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dialogo_Hospital_04" ID="{452B77B6-B231-436B-B1CE-1478210C125B}" ShortID="737494216">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dialogo_Hospital_01" ID="{6D184C50-5724-4F49-9F28-E7FE4C7C2C3A}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.309056097095965"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.463584145643946"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.79036950498745"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.0443231556188"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Dialogo_Hospital_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="533419512"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dialogo_Hospital_01" ID="{6D184C50-5724-4F49-9F28-E7FE4C7C2C3A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dialogo_Hospital_05" ID="{167C7041-C478-4800-8AD1-A2D0EF1A0DF8}" ShortID="805126238">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dialogo_Hospital_01" ID="{5F3B7494-F292-49B0-9FA5-D447649CDDAA}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.23622438838386"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.927168291287892"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="11.2805475440027"/>
+										<Property Name="TrimEnd" Type="Real64" Value="16.6890292431821"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Dialogo_Hospital_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="46665613"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dialogo_Hospital_01" ID="{5F3B7494-F292-49B0-9FA5-D447649CDDAA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="SFX_Camara_Frigorifica" ID="{D1D7CE78-FD60-4219-8EE8-E1D9B10C01B1}" ShortID="810583646">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Camara_Frigorica" ID="{DDDB15F3-77F5-42EA-B8EE-544903DD8A55}" WorkUnitID="{391D9F34-9956-4CB7-B3B3-75A6CA92D01D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Ventilacion_Habitacion1_13" ID="{791E9A5E-4DB9-4647-82DE-DA42B8DF6328}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.63221774651213"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.698766982987092"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Ventilacion_Habitacion1_13.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="779577973"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Ventilacion_Habitacion1_13" ID="{791E9A5E-4DB9-4647-82DE-DA42B8DF6328}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Goteo_Tuberias" ID="{870F6187-3015-49B1-A1B7-A7DEE8FD9480}" ShortID="154163210">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Camara_Frigorica" ID="{DDDB15F3-77F5-42EA-B8EE-544903DD8A55}" WorkUnitID="{391D9F34-9956-4CB7-B3B3-75A6CA92D01D}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7DDDFDD-F9A1-4A17-BEEE-CF0C75AE9485}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E4742899-2EAD-40DF-91C7-ABEF7D054A61}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Goteo_tuberias_14" ID="{EE645F0F-4F23-49B4-A7CD-672E107E21B1}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Goteo_tuberias_14.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="916453779"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Goteo_tuberias_14" ID="{EE645F0F-4F23-49B4-A7CD-672E107E21B1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

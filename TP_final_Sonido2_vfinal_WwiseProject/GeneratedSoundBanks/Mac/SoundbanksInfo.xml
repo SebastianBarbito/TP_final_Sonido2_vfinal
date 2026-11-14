@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4D5FBE47-355B-C6B0-A2C3-2986D983744C}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="3376069164" Name="Distance_Morgue"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3955990872" Name="Zona_Musica">
+					<States>
+						<State Id="261264058" Name="Sala_Maquinas"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1818940147" Name="Pasillo"/>
+						<State Id="3538185048" Name="Pasillo_Suspenso"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="4064446173" Name="Surface_Type">
+					<Switches>
+						<Switch Id="890558384" Name="Ceramica"/>
+						<Switch Id="2010309870" Name="Ladrillo"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2310174327" Type="User" Language="SFX" Hash="{413B6A78-200A-21B2-1B99-87B214E23A97}">
+			<ShortName>Main_Soundbanks</ShortName>
+			<Path>Main_Soundbanks.bnk</Path>
+			<Media>
+				<File Id="46665613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialogo_Hospital_01.wav</ShortName>
+					<CachePath>SFX/Dialogo_Hospital_01_7C65B81A.wem</CachePath>
+				</File>
+				<File Id="58950823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Advertencia_Pasillo_04.wav</ShortName>
+					<CachePath>SFX/SFX_Advertencia_Pasillo_04_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="94962318" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialogo_Hospital_01.wav</ShortName>
+					<CachePath>SFX/Dialogo_Hospital_01_30641D6E.wem</CachePath>
+				</File>
+				<File Id="147970337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pasos_Ladrillo_08.wav</ShortName>
+					<CachePath>SFX/SFX_Pasos_Ladrillo_08_46DCF651.wem</CachePath>
+				</File>
+				<File Id="210125542" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialogo_Hospital_01.wav</ShortName>
+					<CachePath>SFX/Dialogo_Hospital_01_158905A6.wem</CachePath>
+				</File>
+				<File Id="237002551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pasos_Ladrillo_08.wav</ShortName>
+					<CachePath>SFX/SFX_Pasos_Ladrillo_08_EF89BABB.wem</CachePath>
+				</File>
+				<File Id="334558867" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>piano.wav</ShortName>
+					<CachePath>SFX/piano_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="338583473" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Desague_Loop_02.wav</ShortName>
+					<CachePath>SFX/SFX_Desague_Loop_02_02F6CA4F.wem</CachePath>
+				</File>
+				<File Id="350536128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialogo_Hospital_01.wav</ShortName>
+					<CachePath>SFX/Dialogo_Hospital_01_3C2AB96E.wem</CachePath>
+				</File>
+				<File Id="352490057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pasillo.wav</ShortName>
+					<CachePath>SFX/Pasillo_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="399691279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pasos_Ceramica_07.wav</ShortName>
+					<CachePath>SFX/SFX_Pasos_Ceramica_07_68AE3599.wem</CachePath>
+				</File>
+				<File Id="457593725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prender_Linterna.wav</ShortName>
+					<CachePath>SFX/Prender_Linterna_6B5B6616.wem</CachePath>
+				</File>
+				<File Id="466090118" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Puerta_Interaccion_01.wav</ShortName>
+					<CachePath>SFX/SFX_Puerta_Interaccion_01_71DCECD2.wem</CachePath>
+				</File>
+				<File Id="470158278" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Primer ruido de elevador.wav</ShortName>
+					<CachePath>SFX/Primer ruido de elevador_7CDD301C.wem</CachePath>
+				</File>
+				<File Id="480890568" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialogo_Hospital_01.wav</ShortName>
+					<CachePath>SFX/Dialogo_Hospital_01_07BFF7AC.wem</CachePath>
+				</File>
+				<File Id="499699512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Foco_Zumbido_05.wav</ShortName>
+					<CachePath>SFX/SFX_Foco_Zumbido_05_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="505960465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Alerta_MGS_09.wav</ShortName>
+					<CachePath>SFX/SFX_Alerta_MGS_09_6A134ECB.wem</CachePath>
+				</File>
+				<File Id="509184880" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_ContenedorAgua_Golpe_03.wav</ShortName>
+					<CachePath>SFX/SFX_ContenedorAgua_Golpe_03_F67716BF.wem</CachePath>
+				</File>
+				<File Id="530534441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bajo.wav</ShortName>
+					<CachePath>SFX/bajo_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="533419512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialogo_Hospital_01.wav</ShortName>
+					<CachePath>SFX/Dialogo_Hospital_01_29066320.wem</CachePath>
+				</File>
+				<File Id="549910586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Apagar_Linterna.wav</ShortName>
+					<CachePath>SFX/Apagar_Linterna_C77B6409.wem</CachePath>
+				</File>
+				<File Id="559636948" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dialogo_Hospital_01.wav</ShortName>
+					<CachePath>SFX/Dialogo_Hospital_01_9D0C30C9.wem</CachePath>
+				</File>
+				<File Id="597165554" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ascensor_Cortocircuito_06.wav</ShortName>
+					<CachePath>SFX/SFX_Ascensor_Cortocircuito_06_C95BF575.wem</CachePath>
+				</File>
+				<File Id="636574113" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pasos_Ceramica_07.wav</ShortName>
+					<CachePath>SFX/SFX_Pasos_Ceramica_07_7F932649.wem</CachePath>
+				</File>
+				<File Id="722618818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin.wav</ShortName>
+					<CachePath>SFX/violin_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="779577973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ventilacion_Habitacion1_13.wav</ShortName>
+					<CachePath>SFX/SFX_Ventilacion_Habitacion1_13_40674352.wem</CachePath>
+				</File>
+				<File Id="834933828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pasos_Ladrillo_08.wav</ShortName>
+					<CachePath>SFX/SFX_Pasos_Ladrillo_08_FDF1E2BB.wem</CachePath>
+				</File>
+				<File Id="836405072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Puerta_Interaccion_01.wav</ShortName>
+					<CachePath>SFX/SFX_Puerta_Interaccion_01_02FDC824.wem</CachePath>
+				</File>
+				<File Id="916453779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Goteo_tuberias_14.wav</ShortName>
+					<CachePath>SFX/SFX_Goteo_tuberias_14_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1009491620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sala_Maquinas.wav</ShortName>
+					<CachePath>SFX/Sala_Maquinas_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1060494435" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bateria.wav</ShortName>
+					<CachePath>SFX/bateria_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1062887725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Pasos_Ceramica_07.wav</ShortName>
+					<CachePath>SFX/SFX_Pasos_Ceramica_07_35B8602A.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="235755498" Name="Play_Alerta_Ascensor" DurationType="OneShot" DurationMin="0.77251995" DurationMax="0.77251995">
+					<MediaRefs>
+						<MediaRef Id="505960465"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3229718764" Name="Play_Ascensor" MaxAttenuation="12" DurationType="OneShot" DurationMin="7.4881907" DurationMax="7.4881907">
+					<MediaRefs>
+						<MediaRef Id="470158278"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2339958533" Name="Play_Ascensor_Falla" MaxAttenuation="12" DurationType="OneShot" DurationMin="3.4077246" DurationMax="3.4077246">
+					<MediaRefs>
+						<MediaRef Id="597165554"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3005329870" Name="Play_Congelador" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="779577973"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1602358412" Name="Play_Footstep" DurationType="OneShot" DurationMin="0.70089316" DurationMax="0.84415805">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="890558384"/>
+							<MediaRefs>
+								<MediaRef Id="399691279"/>
+								<MediaRef Id="636574113"/>
+								<MediaRef Id="1062887725"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2010309870"/>
+							<MediaRefs>
+								<MediaRef Id="147970337"/>
+								<MediaRef Id="237002551"/>
+								<MediaRef Id="834933828"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3035040058" Name="Play_Goteo_Tuberias" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="916453779"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1581461195" Name="Play_Lavamanos_Agua" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="338583473"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2624422069" Name="Play_Led" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="499699512"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3377514224" Name="Play_Linterna_Apagar" DurationType="OneShot" DurationMin="0.50806224" DurationMax="0.50806224">
+					<MediaRefs>
+						<MediaRef Id="549910586"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3903689922" Name="Play_Linterna_Prender" DurationType="OneShot" DurationMin="0.8290739" DurationMax="0.8290739">
+					<MediaRefs>
+						<MediaRef Id="457593725"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3438997181" Name="Play_Morgue" DurationType="OneShot" DurationMin="64" DurationMax="64">
+					<MediaRefs>
+						<MediaRef Id="334558867"/>
+						<MediaRef Id="530534441"/>
+						<MediaRef Id="722618818"/>
+						<MediaRef Id="1060494435"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3955990872" Id="1818940147"/>
+							<MediaRefs>
+								<MediaRef Id="352490057"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3955990872" Id="261264058"/>
+							<MediaRefs>
+								<MediaRef Id="1009491620"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3955990872" Id="3538185048"/>
+							<MediaRefs>
+								<MediaRef Id="58950823"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1640487806" Name="Play_Puerta_Abrir" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.94093406" DurationMax="0.94093406">
+					<MediaRefs>
+						<MediaRef Id="466090118"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2336636307" Name="Play_Puerta_Cerrar" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.1401099" DurationMax="1.1401099">
+					<MediaRefs>
+						<MediaRef Id="836405072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2306544893" Name="Play_RC_Monologos" DurationType="OneShot" DurationMin="2.4724488" DurationMax="6.181122">
+					<MediaRefs>
+						<MediaRef Id="46665613"/>
+						<MediaRef Id="350536128"/>
+						<MediaRef Id="480890568"/>
+						<MediaRef Id="533419512"/>
+						<MediaRef Id="559636948"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="221182915" Name="Play_Tanque_Agua" MaxAttenuation="12" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="509184880"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2034337500" Name="Play_Voz_AscensorFalla" DurationType="OneShot" DurationMin="4.481313" DurationMax="4.481313">
+					<MediaRefs>
+						<MediaRef Id="210125542"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="562350871" Name="Play_Voz_AscensorLlamar" DurationType="OneShot" DurationMin="4.9448977" DurationMax="4.9448977">
+					<MediaRefs>
+						<MediaRef Id="94962318"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3438594673" Name="Stop_Lavamanos_Agua" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3376069164" Name="Distance_Morgue"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3955990872" Name="Zona_Musica">
+					<States>
+						<State Id="261264058" Name="Sala_Maquinas"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1818940147" Name="Pasillo"/>
+						<State Id="3538185048" Name="Pasillo_Suspenso"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="4064446173" Name="Surface_Type">
+					<Switches>
+						<Switch Id="890558384" Name="Ceramica"/>
+						<Switch Id="2010309870" Name="Ladrillo"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{459758C2-2DE0-DA43-A64E-A2B5E9CA4803}</FileHash>
+</SoundBanksInfo>

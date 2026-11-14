@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A81DEA7-C462-4A5D-99AC-DBC600102E34}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{1A81DEA7-C462-4A5D-99AC-DBC600102E34}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance_Morgue" ID="{88BAE3E8-F653-4BBC-93A5-EB4DFCC3D611}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="25"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="25"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

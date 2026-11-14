@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16F1B989-DCDB-4CF6-8AC1-B7CAF9C9138E}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{16F1B989-DCDB-4CF6-8AC1-B7CAF9C9138E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Zona_Musica" ID="{F94D3C22-0871-4443-B55D-ADEC21671A6B}">
+					<ChildrenList>
+						<State Name="None" ID="{32BD81FB-1EC5-49E3-90E3-7DD314AF1E3C}"/>
+						<State Name="Pasillo" ID="{C1BE2C48-4D6A-45E0-BB48-A5E9E6265340}"/>
+						<State Name="Sala_Maquinas" ID="{80484728-F094-4BDD-B6E3-8843E4E4A77D}"/>
+						<State Name="Pasillo_Suspenso" ID="{85AD7CA9-E970-4453-8301-484DE78E5BE0}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

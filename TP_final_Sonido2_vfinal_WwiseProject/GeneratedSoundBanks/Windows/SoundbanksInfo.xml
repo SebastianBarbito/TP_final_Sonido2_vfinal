@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E9BF73DB-451B-C70B-898A-84B41E152E4A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="3376069164" Name="Distance_Morgue"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2310174327" Type="User" Language="SFX" Hash="{333B4FE3-447D-A80D-03B2-F03EF132F65C}">
+			<ShortName>Main_Soundbanks</ShortName>
+			<Path>Main_Soundbanks.bnk</Path>
+			<Media>
+				<File Id="334558867" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>piano.wav</ShortName>
+					<CachePath>SFX/piano_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="530534441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bajo.wav</ShortName>
+					<CachePath>SFX/bajo_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="722618818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>violin.wav</ShortName>
+					<CachePath>SFX/violin_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1060494435" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>bateria.wav</ShortName>
+					<CachePath>SFX/bateria_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3438997181" Name="Play_Morgue" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="334558867"/>
+						<MediaRef Id="530534441"/>
+						<MediaRef Id="722618818"/>
+						<MediaRef Id="1060494435"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3376069164" Name="Distance_Morgue"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B250FBA2-1804-0529-EADA-EACB5A3A3719}</FileHash>
+</SoundBanksInfo>

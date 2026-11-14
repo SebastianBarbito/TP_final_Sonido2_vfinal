@@ -1,0 +1,629 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e238bd4717378b84bac43f881e7197d0, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bc3634527bb034419eacb99f2fe83bc7
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: bc3634527bb034419eacb99f2fe83bc7
+    GuidInternal: 
+    m_lastTime: -8584071559639875130
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 992874e4ad2edf4091c7abef7d054a61
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 992874e4ad2edf4091c7abef7d054a61
+    GuidInternal: 
+    m_lastTime: -8584071559641874564
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 992874e4ad2edf4091c7abef7d054a61
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7e2e5d7e09df604fb5a5fcdef9c220a7
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 7e2e5d7e09df604fb5a5fcdef9c220a7
+    GuidInternal: 
+    m_lastTime: -8584069844926778607
+    List:
+    - name: Main_Soundbanks
+      guid: 51584d91cb779b4eacccae423cd0ea05
+      id: 2310174327
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e2e5d7e09df604fb5a5fcdef9c220a7
+      - ElementName: Main_Soundbanks
+        ObjectType: 7
+        guid: 51584d91cb779b4eacccae423cd0ea05
+      Path: SoundBanks\Default Work Unit\Main_Soundbanks
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 092df98e8e33d8439d53019b381f1b7e
+    ParentPath: Events\Default Work Unit
+    guid: 092df98e8e33d8439d53019b381f1b7e
+    GuidInternal: 
+    m_lastTime: -8584069844927334187
+    List:
+    - name: Play_Alerta_Ascensor
+      guid: e5dbcf34374f464ebb95dca81aa31557
+      id: 235755498
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Alerta_Ascensor
+        ObjectType: 3
+        guid: e5dbcf34374f464ebb95dca81aa31557
+      Path: Events\Default Work Unit\Play_Alerta_Ascensor
+      maxAttenuation: 0
+      maxDuration: 0.77251995
+      minDuration: 0.77251995
+    - name: Play_Ascensor
+      guid: 72266b7f069a3f47bc02a2bdf64b3551
+      id: 3229718764
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Ascensor
+        ObjectType: 3
+        guid: 72266b7f069a3f47bc02a2bdf64b3551
+      Path: Events\Default Work Unit\Play_Ascensor
+      maxAttenuation: 12
+      maxDuration: 7.4881907
+      minDuration: 7.4881907
+    - name: Play_Ascensor_Falla
+      guid: 71eaa8d3e27f384b821ba76f1e6b223c
+      id: 2339958533
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Ascensor_Falla
+        ObjectType: 3
+        guid: 71eaa8d3e27f384b821ba76f1e6b223c
+      Path: Events\Default Work Unit\Play_Ascensor_Falla
+      maxAttenuation: 12
+      maxDuration: 3.4077246
+      minDuration: 3.4077246
+    - name: Play_Congelador
+      guid: 7dbbcd05d507e744a79dc28eeed5c07d
+      id: 3005329870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Congelador
+        ObjectType: 3
+        guid: 7dbbcd05d507e744a79dc28eeed5c07d
+      Path: Events\Default Work Unit\Play_Congelador
+      maxAttenuation: 7
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Footstep
+      guid: 5c43b90c770dbc42ac4dee4c429b6aa0
+      id: 1602358412
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Footstep
+        ObjectType: 3
+        guid: 5c43b90c770dbc42ac4dee4c429b6aa0
+      Path: Events\Default Work Unit\Play_Footstep
+      maxAttenuation: 0
+      maxDuration: 0.84415805
+      minDuration: 0.70089316
+    - name: Play_Goteo_Tuberias
+      guid: 10d4908cb35ea843addea0f7b340a34a
+      id: 3035040058
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Goteo_Tuberias
+        ObjectType: 3
+        guid: 10d4908cb35ea843addea0f7b340a34a
+      Path: Events\Default Work Unit\Play_Goteo_Tuberias
+      maxAttenuation: 7
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Lavamanos_Agua
+      guid: d093726e9cb7df4385df82834aa31028
+      id: 1581461195
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Lavamanos_Agua
+        ObjectType: 3
+        guid: d093726e9cb7df4385df82834aa31028
+      Path: Events\Default Work Unit\Play_Lavamanos_Agua
+      maxAttenuation: 7
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Led
+      guid: 7577c92d0550cf45af29e5d6bf211013
+      id: 2624422069
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Led
+        ObjectType: 3
+        guid: 7577c92d0550cf45af29e5d6bf211013
+      Path: Events\Default Work Unit\Play_Led
+      maxAttenuation: 7
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Linterna_Apagar
+      guid: b90c192de2177143b57bc07caddb77c2
+      id: 3377514224
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Linterna_Apagar
+        ObjectType: 3
+        guid: b90c192de2177143b57bc07caddb77c2
+      Path: Events\Default Work Unit\Play_Linterna_Apagar
+      maxAttenuation: 0
+      maxDuration: 0.50806224
+      minDuration: 0.50806224
+    - name: Play_Linterna_Prender
+      guid: fc3fb1e349961a40b4488b9150a4b434
+      id: 3903689922
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Linterna_Prender
+        ObjectType: 3
+        guid: fc3fb1e349961a40b4488b9150a4b434
+      Path: Events\Default Work Unit\Play_Linterna_Prender
+      maxAttenuation: 0
+      maxDuration: 0.8290739
+      minDuration: 0.8290739
+    - name: Play_Morgue
+      guid: 861333e2c4bdbb4ba3a512544ad053d8
+      id: 3438997181
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Morgue
+        ObjectType: 3
+        guid: 861333e2c4bdbb4ba3a512544ad053d8
+      Path: Events\Default Work Unit\Play_Morgue
+      maxAttenuation: 0
+      maxDuration: 64
+      minDuration: 64
+    - name: Play_Music
+      guid: e94be1036d802847b03cf91f508e95f2
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Music
+        ObjectType: 3
+        guid: e94be1036d802847b03cf91f508e95f2
+      Path: Events\Default Work Unit\Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Puerta_Abrir
+      guid: 638bc1455fd9534bbe9260d0520882cf
+      id: 1640487806
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Puerta_Abrir
+        ObjectType: 3
+        guid: 638bc1455fd9534bbe9260d0520882cf
+      Path: Events\Default Work Unit\Play_Puerta_Abrir
+      maxAttenuation: 25
+      maxDuration: 0.94093406
+      minDuration: 0.94093406
+    - name: Play_Puerta_Cerrar
+      guid: 23fea0a4c2e10743afddd511176e9068
+      id: 2336636307
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Puerta_Cerrar
+        ObjectType: 3
+        guid: 23fea0a4c2e10743afddd511176e9068
+      Path: Events\Default Work Unit\Play_Puerta_Cerrar
+      maxAttenuation: 25
+      maxDuration: 1.1401099
+      minDuration: 1.1401099
+    - name: Play_RC_Monologos
+      guid: 65b517c8fc69784286c9006b51c9a201
+      id: 2306544893
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_RC_Monologos
+        ObjectType: 3
+        guid: 65b517c8fc69784286c9006b51c9a201
+      Path: Events\Default Work Unit\Play_RC_Monologos
+      maxAttenuation: 0
+      maxDuration: 6.181122
+      minDuration: 2.4724488
+    - name: Play_Tanque_Agua
+      guid: 524b0b0e904ce64b8c269983b72061a1
+      id: 221182915
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Tanque_Agua
+        ObjectType: 3
+        guid: 524b0b0e904ce64b8c269983b72061a1
+      Path: Events\Default Work Unit\Play_Tanque_Agua
+      maxAttenuation: 12
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Voz_AscensorFalla
+      guid: 997c93c8c7f74f43bcd51292ee560f09
+      id: 2034337500
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Voz_AscensorFalla
+        ObjectType: 3
+        guid: 997c93c8c7f74f43bcd51292ee560f09
+      Path: Events\Default Work Unit\Play_Voz_AscensorFalla
+      maxAttenuation: 0
+      maxDuration: 4.481313
+      minDuration: 4.481313
+    - name: Play_Voz_AscensorLlamar
+      guid: 8fc1237091ae514b9e46bf1ae267f833
+      id: 562350871
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Play_Voz_AscensorLlamar
+        ObjectType: 3
+        guid: 8fc1237091ae514b9e46bf1ae267f833
+      Path: Events\Default Work Unit\Play_Voz_AscensorLlamar
+      maxAttenuation: 0
+      maxDuration: 4.9448977
+      minDuration: 4.9448977
+    - name: Stop_Lavamanos_Agua
+      guid: 2f3e319ea866c244950820abb6e5694d
+      id: 3438594673
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 092df98e8e33d8439d53019b381f1b7e
+      - ElementName: Stop_Lavamanos_Agua
+        ObjectType: 3
+        guid: 2f3e319ea866c244950820abb6e5694d
+      Path: Events\Default Work Unit\Stop_Lavamanos_Agua
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a7de811a62c45d4a99acdbc600102e34
+    ParentPath: Game Parameters\Default Work Unit
+    guid: a7de811a62c45d4a99acdbc600102e34
+    GuidInternal: 
+    m_lastTime: -8584071055409759652
+    List:
+    - name: Distance_Morgue
+      guid: e8e3ba8853f6bc4b93a5eb4dfcc3d611
+      id: 3376069164
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a7de811a62c45d4a99acdbc600102e34
+      - ElementName: Distance_Morgue
+        ObjectType: 13
+        guid: e8e3ba8853f6bc4b93a5eb4dfcc3d611
+      Path: Game Parameters\Default Work Unit\Distance_Morgue
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 89b9f116dbdcf64c8ac1b7caf9c9138e
+    ParentPath: States\Default Work Unit
+    guid: 89b9f116dbdcf64c8ac1b7caf9c9138e
+    GuidInternal: 
+    m_lastTime: -8584070603664407116
+    List:
+    - name: Zona_Musica
+      guid: 223c4df971084344b55dadec21671a6b
+      id: 3955990872
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 89b9f116dbdcf64c8ac1b7caf9c9138e
+      - ElementName: Zona_Musica
+        ObjectType: 9
+        guid: 223c4df971084344b55dadec21671a6b
+      Path: States\Default Work Unit\Zona_Musica
+      values:
+      - name: None
+        guid: fb81bd32c51ee34990e37dd314af1e3c
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 89b9f116dbdcf64c8ac1b7caf9c9138e
+        - ElementName: Zona_Musica
+          ObjectType: 9
+          guid: 223c4df971084344b55dadec21671a6b
+        - ElementName: None
+          ObjectType: 8
+          guid: fb81bd32c51ee34990e37dd314af1e3c
+      - name: Pasillo
+        guid: 482cbec16a4de045bb48a5e9e6265340
+        id: 1818940147
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 89b9f116dbdcf64c8ac1b7caf9c9138e
+        - ElementName: Zona_Musica
+          ObjectType: 9
+          guid: 223c4df971084344b55dadec21671a6b
+        - ElementName: Pasillo
+          ObjectType: 8
+          guid: 482cbec16a4de045bb48a5e9e6265340
+      - name: Pasillo_Suspenso
+        guid: a97cad8570e953448301484de78e5be0
+        id: 3538185048
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 89b9f116dbdcf64c8ac1b7caf9c9138e
+        - ElementName: Zona_Musica
+          ObjectType: 9
+          guid: 223c4df971084344b55dadec21671a6b
+        - ElementName: Pasillo_Suspenso
+          ObjectType: 8
+          guid: a97cad8570e953448301484de78e5be0
+      - name: Sala_Maquinas
+        guid: 2847488094f0dd4bb6e38843e4e4a77d
+        id: 261264058
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 89b9f116dbdcf64c8ac1b7caf9c9138e
+        - ElementName: Zona_Musica
+          ObjectType: 9
+          guid: 223c4df971084344b55dadec21671a6b
+        - ElementName: Sala_Maquinas
+          ObjectType: 8
+          guid: 2847488094f0dd4bb6e38843e4e4a77d
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2b1d593e3413654eb42f5ea4bfc3341e
+    ParentPath: Switches\Default Work Unit
+    guid: 2b1d593e3413654eb42f5ea4bfc3341e
+    GuidInternal: 
+    m_lastTime: -8584070050853109827
+    List:
+    - name: Surface_Type
+      guid: 9f0c690920f82b46bf71b18ba6e233ab
+      id: 4064446173
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2b1d593e3413654eb42f5ea4bfc3341e
+      - ElementName: Surface_Type
+        ObjectType: 11
+        guid: 9f0c690920f82b46bf71b18ba6e233ab
+      Path: Switches\Default Work Unit\Surface_Type
+      values:
+      - name: Ceramica
+        guid: 5edb4914bd05654d97d351acd013ad1e
+        id: 890558384
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2b1d593e3413654eb42f5ea4bfc3341e
+        - ElementName: Surface_Type
+          ObjectType: 11
+          guid: 9f0c690920f82b46bf71b18ba6e233ab
+        - ElementName: Ceramica
+          ObjectType: 10
+          guid: 5edb4914bd05654d97d351acd013ad1e
+      - name: Ladrillo
+        guid: afe549a17314ee45bed2ea89856d5194
+        id: 2010309870
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2b1d593e3413654eb42f5ea4bfc3341e
+        - ElementName: Surface_Type
+          ObjectType: 11
+          guid: 9f0c690920f82b46bf71b18ba6e233ab
+        - ElementName: Ladrillo
+          ObjectType: 10
+          guid: afe549a17314ee45bed2ea89856d5194
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ce495f1b0402fa4c9457ef2ad2358ecd
+    ParentPath: Triggers\Default Work Unit
+    guid: ce495f1b0402fa4c9457ef2ad2358ecd
+    GuidInternal: 
+    m_lastTime: -8584071559640540059
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000090000000a0000000b0000000c0000000d0000000e00000013000000140000001c0000001d000000290000002a0000002b00000035000000360000003f00000040000000460000004700000056000000570000006800000069000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d019cf74a288544a9e5ed2ad97d9271, type: 3}
+  m_Name: F94D3C22-0871-4443-B55D-ADEC21671A6B
+  m_EditorClassIdentifier: 
+  objectName: Zona_Musica
+  id: 3955990872
+  guid: F94D3C22-0871-4443-B55D-ADEC21671A6B

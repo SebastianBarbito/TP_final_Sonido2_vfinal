@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8EF92D09-338E-43D8-9D53-019B381F1B7E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Morgue" ID="{E2331386-BDC4-4BBB-A3A5-12544AD053D8}">
+					<ChildrenList>
+						<Action Name="" ID="{53F4EE7F-B926-4463-83F2-FC4EA65166F0}" ShortID="613843629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Morgue" ID="{DBBEDC89-B919-4B28-B9F4-67721EFAD771}" WorkUnitID="{D7A63800-C06A-454D-9FE2-4ED404AF2E99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{03E14BE9-806D-4728-B03C-F91F508E95F2}">
+					<ChildrenList>
+						<Action Name="" ID="{DB05EAAA-E544-4CB8-AFAA-E15D5242647C}" ShortID="452295417">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musica_General" ID="{C80A612E-6B9A-4681-9D71-8E3DDCCD1D42}" WorkUnitID="{D7A63800-C06A-454D-9FE2-4ED404AF2E99}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puerta_Abrir" ID="{45C18B63-D95F-4B53-BE92-60D0520882CF}">
+					<ChildrenList>
+						<Action Name="" ID="{DDFE7EEC-DDBC-4A71-BFCF-A828C2540E35}" ShortID="39701367">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Puerta_Abrir" ID="{B5358EFA-F89E-43DC-B21F-CCE047AE83EF}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puerta_Cerrar" ID="{A4A0FE23-E1C2-4307-AFDD-D511176E9068}">
+					<ChildrenList>
+						<Action Name="" ID="{B409B20E-FA17-4192-92C3-8A2C723E5507}" ShortID="1058092283">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Puerta_Cerrar" ID="{02C69593-E198-455B-A1B7-7118D957A424}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Led" ID="{2DC97775-5005-45CF-AF29-E5D6BF211013}">
+					<ChildrenList>
+						<Action Name="" ID="{14AD63AB-728E-4747-84D8-8346024C0CA5}" ShortID="31179175">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Foco_LED" ID="{EF2D250D-C421-410C-9E97-CA4E8596237B}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lavamanos_Agua" ID="{6E7293D0-B79C-43DF-85DF-82834AA31028}">
+					<ChildrenList>
+						<Action Name="" ID="{C13347F7-2834-4CDB-9F83-B6EA8A537BC4}" ShortID="572327615">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Lavamanos_Agua" ID="{00163589-6107-4A3D-9B4F-95730DE4687A}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Lavamanos_Agua" ID="{9E313E2F-66A8-44C2-9508-20ABB6E5694D}">
+					<ChildrenList>
+						<Action Name="" ID="{F6388D27-D07A-4E29-B7C1-54E1820BD9A6}" ShortID="1042920327">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Lavamanos_Agua" ID="{00163589-6107-4A3D-9B4F-95730DE4687A}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tanque_Agua" ID="{0E0B4B52-4C90-4BE6-8C26-9983B72061A1}">
+					<ChildrenList>
+						<Action Name="" ID="{6C1C936A-7870-4E54-B02E-EA7E8B3FE558}" ShortID="665799238">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Tanque_Agua" ID="{A383CDC8-C45F-4EE9-9B70-77DEC85AA03C}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ascensor" ID="{7F6B2672-9A06-473F-BC02-A2BDF64B3551}">
+					<ChildrenList>
+						<Action Name="" ID="{A54899E5-2C5E-4DB2-877E-11D28DFAD83B}" ShortID="509823112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ascensor" ID="{29F75709-E8D3-4AD8-8BE9-9AD4EA90ABB5}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ascensor_Falla" ID="{D3A8EA71-7FE2-4B38-821B-A76F1E6B223C}">
+					<ChildrenList>
+						<Action Name="" ID="{81603368-9607-475D-9BE6-ACF080FA3B34}" ShortID="450363333">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ascensor_Falla" ID="{87CC4906-4D99-404B-93E0-5CE35C877FF2}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Linterna_Prender" ID="{E3B13FFC-9649-401A-B448-8B9150A4B434}">
+					<ChildrenList>
+						<Action Name="" ID="{F7815A80-A553-4E21-AFFC-3979294876DC}" ShortID="571213633">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Linterna_Prender" ID="{4DD423DA-9351-43DE-9FF8-5BEBA89D1E50}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Linterna_Apagar" ID="{2D190CB9-17E2-4371-B57B-C07CADDB77C2}">
+					<ChildrenList>
+						<Action Name="" ID="{0AF8416D-8D43-4EEB-A97B-81690C57C20F}" ShortID="577198378">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Linterna_Apagar" ID="{5C9CFBDD-D0ED-40DB-B638-E3E61919CBA5}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Alerta_Ascensor" ID="{34CFDBE5-4F37-4E46-BB95-DCA81AA31557}">
+					<ChildrenList>
+						<Action Name="" ID="{E02FA3CC-542D-4702-A88C-741E6FB4F52A}" ShortID="901535984">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Alerta_Ascensor" ID="{3B52A820-3692-40AF-BDD4-AA02271092FA}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footstep" ID="{0CB9435C-0D77-42BC-AC4D-EE4C429B6AA0}">
+					<ChildrenList>
+						<Action Name="" ID="{29D014D1-0BAF-428C-BC42-7BA163E48F11}" ShortID="755145926">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Footsteps" ID="{F3C1D253-E249-4BC0-96FD-88449557EAA9}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voz_AscensorLlamar" ID="{7023C18F-AE91-4B51-9E46-BF1AE267F833}">
+					<ChildrenList>
+						<Action Name="" ID="{1032AD6E-EA17-415A-ACA7-96641FE3218A}" ShortID="676177952">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voz_Ascensor_Llamar" ID="{16E7F663-BB93-4CAC-91CF-16DEEE67F1EF}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voz_AscensorFalla" ID="{C8937C99-F7C7-434F-BCD5-1292EE560F09}">
+					<ChildrenList>
+						<Action Name="" ID="{703E8BCF-DDDA-4177-93BD-329A205F903A}" ShortID="738921856">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voz_Ascensor_Falla" ID="{39FA7A1D-FF9A-4897-B524-F703F69F416D}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RC_Monologos" ID="{C817B565-69FC-4278-86C9-006B51C9A201}">
+					<ChildrenList>
+						<Action Name="" ID="{65FFC8BC-D3C2-48D1-ACA7-E68B0CE11C35}" ShortID="632333687">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Monologos" ID="{1CD18816-C5D9-4462-B9D4-97232D702158}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Congelador" ID="{05CDBB7D-07D5-44E7-A79D-C28EEED5C07D}">
+					<ChildrenList>
+						<Action Name="" ID="{2368F16E-4308-4FFB-BC2B-3AAF9D0EEB69}" ShortID="206473299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Camara_Frigorifica" ID="{D1D7CE78-FD60-4219-8EE8-E1D9B10C01B1}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Goteo_Tuberias" ID="{8C90D410-5EB3-43A8-ADDE-A0F7B340A34A}">
+					<ChildrenList>
+						<Action Name="" ID="{74DA3CB5-D765-499D-9CA3-97B59672031D}" ShortID="637746546">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Goteo_Tuberias" ID="{870F6187-3015-49B1-A1B7-A7DEE8FD9480}" WorkUnitID="{B2C030CA-E036-4207-9736-1C332EA27905}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

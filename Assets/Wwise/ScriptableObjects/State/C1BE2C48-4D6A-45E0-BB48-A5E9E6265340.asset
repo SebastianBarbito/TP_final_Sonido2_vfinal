@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64ef0855758d414abc9b5296c183d20, type: 3}
+  m_Name: C1BE2C48-4D6A-45E0-BB48-A5E9E6265340
+  m_EditorClassIdentifier: 
+  objectName: Pasillo
+  id: 1818940147
+  guid: C1BE2C48-4D6A-45E0-BB48-A5E9E6265340
+  WwiseStateGroupReference: {fileID: 11400000, guid: b07d8669aa3cee34592ad96f744bf1be, type: 2}

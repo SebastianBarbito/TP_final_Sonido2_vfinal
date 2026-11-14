@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3438997181	Play_Morgue			\Default Work Unit\Play_Morgue	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3376069164	Distance_Morgue			\Default Work Unit\Distance_Morgue	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	334558867	piano	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Windows\SFX\piano_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Morgue\Morgue\piano		12288096
+	530534441	bajo	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Windows\SFX\bajo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Morgue\Morgue\bajo		12288096
+	722618818	violin	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Windows\SFX\violin_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Morgue\Morgue\violin		12288096
+	1060494435	bateria	C:\Users\Rodrigo\Desktop\TP_final_Sonido2_vfinal\TP_final_Sonido2_vfinal_WwiseProject\.cache\Windows\SFX\bateria_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Morgue\Morgue\bateria		12288096
+
